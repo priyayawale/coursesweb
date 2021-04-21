@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title></title>
+<style>
+	body{
+		border-top:45px solid #180852;
+		margin:0px;
+		padding:0px;
+		margin-bottom:200px;
+	}
+	#one{
+		text-align:right;
+		color:white;
+		font-size:15px;
+		font-weight:bold;
+		position:relative;
+		bottom:35px;
+		right:40px;
+	}
+	#a-white{
+		color:white;
+	}
+	.nav{
+		background-color:white;
+		}
+	.nav-item{
+		font-weight:bold;
+		font-size:20px;
+	}
+   .nav-link	{
+		color:black;
+	}
+	#guru{
+		color:#0c2fc9;
+		font-size:45px;
+		font-family:Arial Rounded MT Bold;
+		position:relative;
+		bottom:5px;
+		left:120px;
+	}
+	#img2{
+		position:relative;
+		bottom:85px;
+		left:20px;
+	}
+	hr{
+		position:relative;
+		bottom:80px;
+	}
+	#con-back{
+		margin:0px;
+		padding:0px;
+		position:relative;
+		bottom:100px;
+	}
+	#img-background{
+		width:100%;
+		height:380px;
+	}
+	#contact{
+		color:white;
+		font-size:50px;
+		font-weight:bold;
+		position:relative;
+		bottom:250px;
+		left:170px;
+
+	}
+	p{
+		font-size:20px;
+		font-weight:bold;
+	}
+	.form-group{
+		padding:8px;
+	}
+	#contact-id{
+		font-size:18px;
+	}
+	/*footer part*/
+	
+	.footer{
+  background: #152F4F;
+  color:white;
+  }
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
+
+	
+	
+</style>	
+</head>
+<body>
+
+<!-- header part	 -->
+<div class="container-fluid">
+	   <div id="one"><a href="login.html" id="a-white">Login</a> &nbsp | &nbsp <a href="Registration.html" id="a-white">Register</a></div>
+
+		<div class="row">	
+		    <div class="col-md-4">
+		          <h1 id="guru">GURU</h1>
+		    </div>	   
+		    <div class="col-md-8">
+				  <ul class="nav  justify-content-center">
+				  	<li class="nav-item"> <a href="e-learning.html" class="nav-link"> Home </a> </li>
+				  	<li class="nav-item"> <a href="about.html" class="nav-link"> About </a> </li>
+				  	<li class="nav-item"> <a href="teacher.html" class="nav-link"> Instructors </a> </li>
+				  	<li class="nav-item"> <a href="courses.html" class="nav-link"> Courses </a> </li>
+				  	<li class="nav-item"> <a href="contact.html" class="nav-link"> Contact </a> </li>
+				  </ul>    	    	 
+		    </div>
+		</div>	
+
+<img src="imgs/logo1.jfif" class="img-fluid" width="90px" height="90px" id="img2">
+<hr>
+</div>
+<div class="container-fluid" id="con-back">
+	<img src="imgs/contact3.jpg" class="img-fluid" id="img-background">
+	<p id="contact">Contact Us</p>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6">
+			<p>Send A Message</p>
+			<form>
+				<div class="form-group">
+					<input type="text" placeholder="Name" class="form-control">
+				</div>
+				<div class="form-group">
+					<input type="Email" placeholder="Email" class="form-control">
+				</div>
+				<div class="form-group">
+					<input type="text" placeholder="Subject" class="form-control">
+				</div>
+				<div class="form-group">
+					<textarea class="form-control" placeholder="Enter your Message..." rows="7"></textarea>
+				</div>
+				<div class="form-group">
+					<button class="btn btn-danger" style="font-weight:bold;padding:10px;border-radius:20px">Send Message</button>
+				</div>
+	     </div>
+	     <div class="col-md-6">
+	     	<p>Contact Information</p><br>
+	     	<i class="fa fa-envelope" style="font-size:25px"></i>&nbsp<span id="contact-id"> Guru-learning@gmail.com</span><br><br>
+	     	<i class="fa fa-phone-square" style="font-size:25px">&nbsp&nbsp&nbsp</i><span id="contact-id">547-896-758-54</span><br><br>
+	     	<img src="imgs/map.png" class="img-fluid" style="width:600px;height:280px">
+	     </div>
+	 </div>       
+</div>
+
+<div class="container-fluid" style="margin:0px;padding:0px;position:relative;top:200px">
+<div class="mt-5 pt-5 pb-5 footer">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-5 col-xs-12 about-company">
+      <h2 style="font-weight:bold">GURU</h2>
+      <p class="pr-5 text-white-50" style="font-size:15px">The key to success is getting people to do the right thing at the right time </p>
+      <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+    </div>
+    <div class="col-lg-3 col-xs-12 links">
+      <h4 class="mt-lg-0 mt-sm-3">Links</h4>
+        <ul class="m-0 p-0">
+          <li>- <a href="e-learning.html">Home</a></li>
+          <li>- <a href="about.html">About</a></li>
+          <li>- <a href="teacher.html">Instructors</a></li>
+          <li>- <a href="courses.html">Courses</a></li>
+          <li>- <a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="col-lg-4 col-xs-12 location">
+      <h4 class="mt-lg-0 mt-sm-4">Location</h4>
+      <p style="font-size:15px">22,Sham Nagar,Pimpari-Chinchwad Pune</p>
+      <p class="mb-0" style="font-size:15px"><i class="fa fa-phone mr-3"></i>547-896-758-54</p>
+      <p style="font-size:15px"><i class="fa fa-envelope-o mr-3"></i>Guru-learning@gmail.com</p>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="col copyright">
+      <p class=""><small class="text-white-50">© 2021. All Rights Reserved.</small></p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,310 @@
+body{
+		border-top:45px solid #180852;
+		margin:0px;
+		padding:0px;
+		margin-bottom:0px;
+		padding-bottom:0px;
+	}
+	#one{
+		text-align:right;
+		color:white;
+		font-size:15px;
+		font-weight:bold;
+		position:relative;
+		bottom:35px;
+		right:40px;
+	}
+	#a-white{
+		color:white;
+	}
+	.nav{
+		background-color:white;
+		}
+	.nav-link{
+		font-weight:bold;
+		font-size:20px;
+	}
+   .nav-link	{
+		color:black;
+	}
+	#guru{
+		color:#0c2fc9;
+		font-size:45px;
+		font-family:Arial Rounded MT Bold;
+		position:relative;
+		bottom:5px;
+		left:120px;
+	}
+	#card-height{
+		height:325px;
+	}
+	.card-body{
+		margin:0px;
+		padding:0px;
+	}
+	.container-fluid{
+		margin:0px;
+		padding:0px;
+	}
+	#img2{
+		position:relative;
+		bottom:85px;
+		left:20px;
+	}
+	#img1{
+		position:relative;
+		bottom:80px;
+	}
+	#p1{
+		font-size:30px;
+		font-family: Arial Rounded MT Bold;
+		font-weight:bold;
+		font-style:italic;
+		position:relative;
+		bottom:450px;
+		left:250px;
+	}
+	#p2{
+       word-spacing:8px;
+       line-height:25px;
+       font-family:Bahnschrift SemiBold;
+       font-size:20px;
+       font-weight:bold;
+	}
+	#p3{
+       font-size:30px;
+       font-weight:bold;
+       color:#0d2cb5;"
+	}
+	#Benefits-con{
+		margin-left:100px;
+		position:relative;
+		bottom:150px;
+	}
+	#welcome{
+		font-size:45px;
+		font-family:Arial Rounded MT Bold;
+	}
+    #welcome2{
+    	font-size:20px;
+    	color:#929693;
+    	font-family:Cambria Math;
+    }
+    #ben1{
+    	font-size:19px;
+    	font-family:Arial Rounded MT Bold;
+    	position:relative;
+    	left:15px;
+    	
+    }
+    #img-one{
+    	width:120px;
+    	height:120px;
+    	position:relative;
+    	right:10px;
+    }
+    #ben2{
+    	font-size:19px;
+    	font-family:Arial Rounded MT Bold;
+    	position:relative;
+    	bottom:78px;
+    	left:140px;
+    }
+    #img-two{
+    	width:85px;
+    	height:85px;
+    	position: relative;
+    	left:3px;
+    	}
+    #ben3{
+    	font-size:19px;
+    	font-family:Arial Rounded MT Bold;
+    	position:relative;
+    	bottom:140px;
+    	left:140px;
+    }
+    #img-three{
+    	height:110px;
+    	width:110px; 
+    	position:relative;
+    	bottom:50px;
+    	right:5px;
+    	
+    }
+    #ben4{
+    	font-size:19px;
+    	font-family:Arial Rounded MT Bold;
+    	position:relative;
+    	bottom:200px;
+    	left:140px;
+    }
+     #img-four{
+    	width:105px;
+    	height:105px;
+    	position:relative;
+    	bottom:114px;
+    	left:1px;
+    }
+    #p6{
+    	width:500px;
+    	height:400px;
+    	border-left:4px solid #3127e8;
+    	border-bottom:4px solid #3127e8;
+        position:relative;
+        top:110px;
+        
+    }
+    #p4{
+    	width:400px;
+    	height:300px;
+    	position:relative;
+    	bottom:60px;
+    	right:150px;
+    }
+    #con-courses
+    {
+    	position:relative;
+    	bottom:190px;
+    }
+    #card-shadow:hover
+    {
+      border:2px solid #cbccd1;
+      box-shadow: 1px 1px 2px #cbccd1;
+    }
+    #card-height:hover
+    {
+       border:2px solid #cbccd1;
+      box-shadow: 1px 1px 2px #cbccd1;
+    }
+   #reg-back{
+   	height:450px;
+   	width:100%;
+   	position:relative;
+   	bottom:50px;
+   }
+   #reg-side{
+   	color:white;
+   	position:relative;
+   	bottom:450px;
+   	left:90px;
+   }
+   #reg-p1{
+   	font-size:15px;
+   	word-spacing:5px;
+   	color:white;
+   	position:relative;
+   	bottom:450px;
+   	left:130px;
+   }
+   #reg-p2{
+   	font-size:22px;
+   	word-spacing:60px;
+   	color:white;
+   	position:relative;
+   	bottom:400px;
+   	left:139px;
+   }
+   #reg-p3{
+   	text-align:center;
+   	font-size:35px;
+   	font-weight:bold;
+   	word-spacing:120px;
+   	color:skyblue;
+   	position:relative;
+   	bottom:400px;
+   	left:128px;
+   }
+   #reg-body{
+   	padding:20px;
+     border-radius:0px;
+   	 height:450px;
+   	 position:relative;
+   	 bottom:500px;
+   }
+   #submit_now{
+   	background-color:#171f91;
+   	color:white;
+   	padding:10px;
+    width:100%;
+    font-weight:bold;
+   }
+   #certified_teachers{
+   	font-size:35px;
+   	font-weight:bold;
+   	font-family:Arial Rounded MT Bold;
+    }
+   #teacher-container{
+   	position:relative;
+   	bottom:300px;
+   }
+   #teacher_name{
+   	font-size:20px;
+    font-weight:bold;
+   }
+   #img-col:hover{
+     color:#f06102;
+   }
+   #img-teacher:hover{
+    box-shadow: 4px 4px 8px #cbccd1;
+   }
+   #btn_more{
+   	 background-color:#171f91;
+   	 color:white;
+   	 margin:10px;
+   	 padding:10px;
+   	 width:200px;
+   	 height:50px;
+   	 font-size:17px;
+   	 position:relative;
+   	 bottom:100px;
+   }
+   #free{
+		color:#1238e0;
+		position:relative;
+		left:5px;
+	}
+	#weeks{
+		color:#1238e0;
+		position:relative;
+		left:55px;
+	}
+	#available{
+		color:#1238e0;
+		position:relative;
+		left:70px;
+	}
+	#available:hover{
+		color:red;
+	}
+	
+
+	/*footer part*/
+	
+	.footer{
+  background: #152F4F;
+  color:white;
+  }
+  .links{
+    ul {list-style-type: none;}
+    li a{
+      color: white;
+      transition: color .2s;
+      &:hover{
+        text-decoration:none;
+        color:#4180CB;
+        }
+    }
+  }  
+  .about-company{
+    i{font-size: 25px;}
+    a{
+      color:white;
+      transition: color .2s;
+      &:hover{color:#4180CB}
+    }
+  } 
+  .location{
+    i{font-size: 18px;}
+  }
+  .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+}
